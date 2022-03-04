@@ -24,7 +24,10 @@ body{
     flex-direction: row;
     justify-content: space-between;
 }
-
+nav ul{
+    display: flex;
+    list-style: none;
+}
 
  /*Navigation*/
     #search{
@@ -69,6 +72,15 @@ body{
  /*Medias Queries*/
  @media screen and (max-width: 768px )
  {
+     body{
+         margin: 0;
+         display: flex;
+         flex-direction: column;
+         min-height: 100vh;
+     }
+     .siteContent{
+         flex: 1;
+     }
      .siteFooter{
          flex-direction: column;
      }
@@ -76,9 +88,13 @@ body{
  }
  @media screen and (max-width: 992px)
  {
-    #home{
+     nav{
+         flex-direction: column;
+     }
+     #home{
         flex-direction: column-reverse;
-    }
+     }
+
 
  }
 
