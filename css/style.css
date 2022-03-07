@@ -1,42 +1,47 @@
 
 body{
+    font-family: Raleway,sans-serif;
     margin: 0;
     display: flex;
     flex-direction: column;
     min-height: 100vh;
-}
-.siteContent{
-    flex: 1;
-}
-/*.siteHeader{*/
-/*    flex: 1;*/
-/*}*/
-/*.siteFooter{*/
-/*    flex: 1;*/
-/*}*/
 
+}
  /*Header*/
- header {
-     background: red;
- }
+
  nav{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
 }
-nav ul{
-    display: flex;
-    list-style: none;
-}
+ .menu{
+     display: flex;
+     flex-direction: row;
+     border: 10px transparent;
+ }
+ .menu .itemMenu:hover{
+     border-top: 1px solid #0065FC;
+ }
 
+
+ /*Main*/
+.siteContent{
+    flex: 1;
+}
  /*Navigation*/
     #search{
         background: aqua;
+        display: flex;
+        flex-direction: row;
     }
 
  /*Filtres*/
  #filter{
      background: green;
+ }
+ .filterInfos{
+     display: flex;
+     flex-direction: row;
  }
 
 
@@ -52,13 +57,46 @@ nav ul{
     background: chartreuse;
     flex: 2;
 }
+.hebergementSubCard1{
+    background: chocolate;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.hebergementSubCard2{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
 
 #popular{
     background: blue;
     flex: 1;
 }
+#popularHeader{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
 #activities{
     background: gold;
+    display: flex;
+    flex-direction: column;
+}
+.activitiesBox{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.activitiesCard1{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.activitiesCard2{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
 }
 
 
@@ -70,6 +108,19 @@ nav ul{
  }
 
  /*Medias Queries*/
+@media screen and (max-width: 992px)
+{
+    nav{
+        flex-direction: column;
+        align-items: center;
+
+    }
+    #home{
+        flex-direction: column-reverse;
+    }
+
+
+}
  @media screen and (max-width: 768px )
  {
      body{
@@ -81,20 +132,14 @@ nav ul{
      .siteContent{
          flex: 1;
      }
+     .menu .itemMenu:hover{
+         border-top: none;
+         border-bottom: 1px solid #0065FC;
+     }
      .siteFooter{
          flex-direction: column;
      }
 
  }
- @media screen and (max-width: 992px)
- {
-     nav{
-         flex-direction: column;
-     }
-     #home{
-        flex-direction: column-reverse;
-     }
 
-
- }
 

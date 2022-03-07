@@ -4,55 +4,128 @@
  <meta charset="UTF-8">
  <meta name=viewport width=device-width, initial-scale=1.0, user-scalable=yes>
  <link rel=stylesheet href=css/style.css>
-
-
  <link rel="preconnect" href="https://fonts.googleapis.com">
  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
- <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,100&display=swap" rel="stylesheet">
- <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.4/css/fontawesome.min.css" integrity="sha384-jLKHWM3JRmfMU0A5x5AkjWkw/EYfGUAGagvnfryNV3F9VqM98XiIH7VBGVoxVSc7" crossorigin="anonymous">
+ <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@100&display=swap" rel="stylesheet">
 
+ <script src="https://kit.fontawesome.com/a9ccb717ee.js" crossorigin="anonymous"></script>
 
 
 <title>BookingBis</title>
-
 </head>
-
-<body >
+<body>
 <!--Header-->
-    <header class="siteHeader">
+    <header>
         <nav>
-            <p>logo</p>
-<!--            <img src="assets/logo/Booki.png">-->
-            <ul>
-                <li>Hébergements</li>
-                <li>Activités</li>
-            </ul>
-        </nav>
+            <img src="assets/logo/Booki.png" alt="Booki Logo">
+            <div class="menu">
+                <div class="itemMenu">Hébergements</div>
+                <div class="itemMenu">Activités</div>
+                </div>
 
+        </nav>
     </header>
 <main class="siteContent">
 <!--Navigation-->
+    <h1>  Trouvez votre hébergement pour des vacances de rêve</h1>
     <div id="search">
-      <p>  trouvez votre hébergement pour des vacances de rêve</p>
-        <p>ici ce sera la recherche a mettre en form</p>
+        <div>icone localisation</div>
+        <div>
+            <form class="formResearch">
+                <label for="research"><i class="fa-solid fa-location-dot"></i></label>
+                <input type="text" id="research" name="research">
+                <button type="button">Rechercher</button>
+            </form>
+
+
+        </div>
     </div>
 
 <!--Filters-->
     <div id="filter">
-        <p> Filtres</p>
+        <div>
+        <h2> Filtres</h2>
+            <div>
+                <div id="economikFilter">
+
+                </div>
+
+                <div id="familialFilter">
+
+                </div>
+
+                <div id="romantikFilter">
+
+                </div>
+
+                <div id="petFilter">
+
+                </div>
+            </div>
+        </div>
+        <div class="filterInfos">
+            <div>icone information</div>
+            <div>Plus de 500 logements sont disponibles dans cette ville</div>
+
+        </div>
+
     </div>
 <!--    Cards-->
     <section id="home">
+
         <div id="hebergement">
-            <p>hébergements à Marseille</p>
+
+            <h2>hébergements à Marseille</h2>
+
+            <div class="hebergementSubCard1">
+                <div>Auberge La Cannebière</div>
+                <div>Hôtel du port</div>
+                <div>Hôtel Les mouettes</div>
+            </div>
+
+            <div class="hebergementSubCard2">
+            <div>Hôtel de la mer</div>
+            <div>Auberge Le Panier</div>
+            <div>Hôtel chez Amina</div>
+            </div>
+
         </div>
+
+
         <div id="popular">
-            <p>Les plus populaires</p>
+            <div id="popularHeader">
+            <h2>Les plus populaires</h2>
+                <p>Icone petit fleche</p>
+            </div>
+            <div>Hôtel Le soleil du matin</div>
+            <div>Au coeur de l'eau, Chambres d'hôtes</div>
+            <div>Hôtel Tout bleu et Blanc</div>
         </div>
 
     </section>
     <section id="activities">
-        <p>Activités à Marseille</p>
+        <h1>Activités à Marseille</h1>
+
+        <div class="activitiesBox">
+        <div class="activitiesCard1">
+            <div>Vieux Port</div>
+            <div>
+                <div>Fort de promègues</div>
+                <div>Îles du Frioul</div>
+
+            </div>
+
+        </div>
+        <div class="activitiesCard2">
+            <div>Parc Nationnal des Calanques</div>
+            <div>
+                <div>Notre-Dame-de-la-Garde</div>
+                <div>Parc Longchamp</div>
+
+            </div>
+
+        </div>
+        </div>
     </section>
 
 
