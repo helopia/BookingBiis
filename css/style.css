@@ -35,10 +35,31 @@ nav {
 }
 
 /*Navigation*/
-#search {
-    background: aqua;
+.search {
     display: flex;
     flex-direction: row;
+}
+.icon-search{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #F2F2F2;
+    min-width: 50px;
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 15px;
+}
+.form-research{
+    display: flex;
+    flex-direction: row;
+}
+.button-search{
+    background-color: #0065FC;
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+    border: #0065FC 1px;
+    min-height: 50px;
+    color: white;
+
 }
 
 /*Filtres*/
