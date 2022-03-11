@@ -88,7 +88,6 @@ nav {
     color: #0065FC;
     display: flex;
     align-items: center;
-    border-radius: 25px;
 }
 .icon-box{
     background-color: #F2F2F2;
@@ -100,13 +99,31 @@ nav {
     align-items: center;
     justify-content: center;
 }
-.icon-box i{
 
-}
 .economikfilterIconBox{
     background-color: red;
     width: 50px;
     height: 50px;
+}
+.filter-infos{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.information-icon{
+    border: #F2F2F2 3px solid;
+    margin-right: 20px;
+    margin-left: 20px;
+    width: 22px;
+    height: 22px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.information-icon i{
+    margin-bottom: 3px;
+    color: #0065FC;
 }
 
 /*Cards*/
@@ -277,13 +294,14 @@ nav {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
-    max-height: 445px;
+    margin: 20px;
 }
 
 .activities a {
     text-decoration: none;
     color: black;
-    width: 302px;
+    width: 100%;
+    max-width: 300px;
     display: flex;
     flex-direction: column;
     justify-content: space-around;
@@ -297,14 +315,13 @@ nav {
 .activities-box {
     display: flex;
     flex-direction: row;
-    /*justify-content: space-around;*/
+    justify-content: space-around;
     width: 100%;
     margin-left: 20px;
     margin-right: 20px;
 }
 
 .activities-box img {
-    display: flex;
     border-top-left-radius: 15px;
     border-top-right-radius: 15px;
     max-height: 440px;
@@ -313,14 +330,15 @@ nav {
 
 .activities-image-big {
     display: flex;
-    height: 390px;
+    height: 100%;
+    width: 100%;
 }
 
 .activities-image-box {
     display: flex;
     flex-direction: column;
     justify-content: space-around;
-    max-width: 300px;
+    max-width: 100%;
 }
 
 .activities-image-medium img {
@@ -349,6 +367,8 @@ nav {
 
 .activities-image-title {
     display: flex;
+    align-items: center;
+    justify-content: center;
     height: 30px;
 }
 
