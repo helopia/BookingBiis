@@ -7,15 +7,17 @@ body {
 }
 
 /*Header*/
-header{
+header {
     margin: 50px;
 }
+
 nav {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
 }
-nav img{
+
+nav img {
     height: 40px;
     width: 90px;
 }
@@ -43,10 +45,12 @@ nav img{
     margin-left: 40px;
     margin-right: 40px;
 }
-.siteContent h1{
+
+.siteContent h1 {
     font-size: 22px;
     margin-bottom: -7px;
 }
+
 /*Navigation*/
 .search {
     display: flex;
@@ -68,9 +72,11 @@ nav img{
     display: flex;
     flex-direction: row;
 }
-#research{
-    border:#F2F2F2 1px solid;
+
+#research {
+    border: #F2F2F2 1px solid;
 }
+
 .button-search {
     background-color: #0065FC;
     border-top-right-radius: 15px;
@@ -105,6 +111,10 @@ nav img{
     align-items: center;
     height: 45px;
     border-radius: 25px;
+}
+
+.economik-filter:hover {
+    background-color: gold;
 }
 
 .economik-filter i {
@@ -168,12 +178,14 @@ nav img{
     margin-left: 20px;
     border-radius: 15px;
 }
-.hebergement h1{
+
+.hebergement h1 {
     margin-left: 40px;
     margin-bottom: 20px;
     margin-top: 40px;
     font-size: 20px;
 }
+
 .cardHebergement {
     height: 199px;
     width: 246px;
@@ -250,7 +262,8 @@ nav img{
     width: 34%;
     border-radius: 15px;
 }
-.popular h1{
+
+.popular h1 {
     margin-left: 40px;
     margin-bottom: 20px;
     margin-top: 40px;
@@ -263,11 +276,13 @@ nav img{
     justify-content: space-between;
     margin-bottom: -30px;
 }
-.popular-header i{
+
+.popular-header i {
     margin-right: 40px;
     margin-bottom: 20px;
     margin-top: 50px;
 }
+
 .cardPopular {
     height: 125px;
     width: auto;
@@ -411,6 +426,8 @@ nav img{
     display: flex;
     align-items: center;
     height: 30px;
+    margin-right: 20px;
+    margin-left: 20px;
 }
 
 /*Footer*/
@@ -424,6 +441,7 @@ footer {
     display: flex;
     justify-content: space-between;
     width: 75%;
+    margin-left: 40px;
 }
 
 footer div {
@@ -478,31 +496,38 @@ ul {
     .siteFooter {
         flex-direction: column;
     }
-    .home{
+
+    .home {
         display: flex;
 
     }
-    .popular{
+
+    .popular {
         width: 100%;
     }
-    .hebergement{
+
+    .hebergement {
         width: 100%;
         display: flex;
         flex-direction: column;
         margin: 0;
     }
-    .cardHebergement{
+
+    .cardHebergement {
         width: 100%;
     }
-    .cardHebergementImage{
+
+    .cardHebergementImage {
         height: 119px;
         width: 100%;
     }
-    .hebergementSubCard1{
+
+    .hebergementSubCard1 {
         display: flex;
         flex-direction: column;
     }
-    .hebergementSubCard2{
+
+    .hebergementSubCard2 {
         display: flex;
         flex-direction: column;
     }
