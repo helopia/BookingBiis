@@ -17,10 +17,11 @@ nav {
     justify-content: space-between;
 }
 
-nav img {
+.logo{
     height: 40px;
     width: 90px;
 }
+
 
 .menu {
     display: flex;
@@ -75,6 +76,7 @@ nav img {
 
 #research {
     border: #F2F2F2 1px solid;
+    width: 230px;
 }
 
 .button-search {
@@ -84,8 +86,11 @@ nav img {
     border: #0065FC 1px;
     min-height: 50px;
     color: white;
+    width: 133px;
 }
-
+.button-search i{
+    display: none;
+}
 /*Filtres*/
 .filter {
     display: flex;
@@ -464,70 +469,96 @@ ul {
 
 /*Medias Queries*/
 @media screen and (max-width: 992px) {
-    nav {
-        flex-direction: column;
-        align-items: center;
-
-    }
-
-    #home {
-        flex-direction: column-reverse;
-    }
 
 
 }
 
 @media screen and (max-width: 768px ) {
-    body {
-        display: flex;
-        flex-direction: column;
-
-    }
-
-    .siteContent {
-        flex: 1;
-    }
-
-    .menu .itemMenu:hover {
-        border-top: none;
-        border-bottom: 1px solid #0065FC;
-    }
-
-    .siteFooter {
-        flex-direction: column;
-    }
-
-    .home {
-        display: flex;
-
-    }
-
-    .popular {
-        width: 100%;
-    }
-
-    .hebergement {
-        width: 100%;
-        display: flex;
-        flex-direction: column;
+    header{
         margin: 0;
     }
-
-    .cardHebergement {
-        width: 100%;
+    header nav{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .logo{
+        margin: 20px;
     }
 
-    .cardHebergementImage {
-        height: 119px;
+    .menu{
+        display: flex;
+        flex-direction: row;
         width: 100%;
+        border-bottom: #F2F2F2 3px solid;
+        justify-content: space-around;
     }
-
-    .hebergementSubCard1 {
+    .siteContent h1{
+        white-space: pre-line;
+        display: flex;
+        width: 100%;
+        justify-content: center;
+    }
+    .siteContent p{
+        display: flex;
+        justify-content: center;
+    }
+    .button-search p{
+        display: none;
+    }
+    .filter{
+        flex-direction: column;
+        max-width: 100%;
+        align-items: start;
+    }
+    .economik-filter{
+        margin: 5px;
+    }
+    .filter-infos p{
+        white-space: pre-line;
+    }
+    .search{
+        display: flex;
+        margin-bottom: 10px;
+    }
+    .button-search{
+        width: 50px;
+        border-top-left-radius: 15px;
+        border-bottom-left-radius: 15px;
+        margin-left: -15px;
+    }
+    .button-search i{
+        display: flex;
+        justify-content: center;
+    }
+    .home{
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    .hebergement{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        margin: 0;
+    }
+    .hebergementSubCard1{
         display: flex;
         flex-direction: column;
     }
-
-    .hebergementSubCard2 {
+    .hebergementSubCard2{
+        display: flex;
+        flex-direction: column;
+    }
+    .popular{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+    .activities-box-align{
+        display: flex;
+        flex-direction: column;
+    }
+    .activities-box{
         display: flex;
         flex-direction: column;
     }
