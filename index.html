@@ -3,10 +3,12 @@
 <head>
     <meta charset="UTF-8">
     <meta name=viewport width=device-width, initial-scale=1.0, user-scalable=yes>
-    <link rel=stylesheet href=css/normalize.css>
+    <link rel=stylesheet href=css/style.css>
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@100&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@100;400&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.4/css/fontawesome.min.css" rel="stylesheet">
     <script src="https://kit.fontawesome.com/a9ccb717ee.js" crossorigin="anonymous"></script>
     <title>BookingBis</title>
 </head>
@@ -25,9 +27,10 @@
 </header>
 <main class="siteContent">
     <!--Navigation-->
-    <h1> Trouvez votre hébergement pour des vacances de rêve</h1>
+    <h1><strong> Trouvez votre hébergement pour des vacances de rêve</strong></h1>
+    <p>En plein centre ville ou en pleine nature</p>
     <div class="search">
-        <div class="icon-search"><i class="fa-solid fa-location-dot fa-xl"></i></div>
+        <div class="icon-search"><i class="fa-solid fa-location-dot fa-lg"></i></div>
         <div>
             <form class="form-research">
                 <label for="research"></label>
@@ -38,37 +41,37 @@
     </div>
     <!--Filters-->
     <section class="filter">
-        <h2> Filtres</h2>
+        <p><strong> Filtres</strong></p>
         <div class="economik-filter">
             <div class="icon-box">
                 <i class="fa-solid fa-money-bill-1-wave fa-lg"></i>
             </div>
-            <a href="#"><strong>Économique</strong></a>
+            <a href="#">Économique</a>
         </div>
         <div class="economik-filter">
             <div class="icon-box">
                 <i class="fa-solid fa-child fa-lg"></i>
             </div>
-            <a href="#"><strong>Familial</strong></a>
+            <a href="#">Familial</a>
         </div>
         <div class="economik-filter">
             <div class="icon-box">
                 <i class="fa-solid fa-heart fa-lg"></i>
             </div>
-            <a href="#"><strong>Romantique</strong></a>
+            <a href="#">Romantique</a>
         </div>
         <div class="economik-filter">
             <div class="icon-box">
                 <i class="fa-solid fa-dog fa-lg"></i>
             </div>
-            <a href="#"><strong>Animaux autorisés</strong></a>
+            <a href="#">Animaux autorisés</a>
         </div>
     </section>
     <section class="filter-infos">
         <div class="information-icon">
-            <i class="fa-solid fa-info fa-lg"></i>
+            <i class="fa-solid fa-info fa-sm"></i>
         </div>
-        <p><strong>Plus de 500 logements sont disponibles dans cette ville</strong></p>
+        <p>Plus de 500 logements sont disponibles dans cette ville</p>
     </section>
     <!--    Cards-->
     <section class="home" id="home">
@@ -203,9 +206,9 @@
             </div>
         </div>
         <div class="popular">
-            <div class="popularHeader">
-                <h2>Les plus populaires</h2>
-                <p>Icone petit fleche</p>
+            <div class="popular-header">
+                <h1>Les plus populaires</h1>
+                <i class="fas fa-chart-line fa-xl"></i>
             </div>
             <a href="#" class="cardPopular">
                 <div class="cardPopularImage">
