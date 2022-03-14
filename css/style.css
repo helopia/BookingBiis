@@ -17,7 +17,7 @@ nav {
     justify-content: space-between;
 }
 
-.logo{
+.logo {
     height: 40px;
     width: 90px;
 }
@@ -88,9 +88,11 @@ nav {
     color: white;
     width: 133px;
 }
-.button-search i{
+
+.button-search i {
     display: none;
 }
+
 /*Filtres*/
 .filter {
     display: flex;
@@ -168,7 +170,7 @@ nav {
 }
 
 /*Cards*/
-#home {
+.home {
     display: flex;
     justify-content: space-between;
     margin: 20px;
@@ -306,7 +308,6 @@ nav {
 }
 
 .cardPopularImage {
-    max-height: 119px;
     height: 100%;
     max-width: 115px;
     width: 100%;
@@ -474,91 +475,138 @@ ul {
 }
 
 @media screen and (max-width: 768px ) {
-    header{
+    header {
         margin: 0;
     }
-    header nav{
+
+    header nav {
         display: flex;
         flex-direction: column;
         align-items: center;
     }
-    .logo{
+
+    .logo {
         margin: 20px;
     }
 
-    .menu{
+    .menu {
         display: flex;
         flex-direction: row;
         width: 100%;
         border-bottom: #F2F2F2 3px solid;
         justify-content: space-around;
     }
-    .siteContent h1{
+
+    .siteContent {
+        display: flex;
+        width: 100%;
+        flex-direction: column;
+        margin: 0;
+    }
+
+    .siteContent h1 {
         white-space: pre-line;
         display: flex;
         width: 100%;
         justify-content: center;
     }
-    .siteContent p{
+
+    .siteContent p {
         display: flex;
         justify-content: center;
     }
-    .button-search p{
+
+    .button-search p {
         display: none;
     }
-    .filter{
+
+    .filter {
         flex-direction: column;
         max-width: 100%;
         align-items: start;
     }
-    .economik-filter{
+
+    .economik-filter {
         margin: 5px;
     }
-    .filter-infos p{
+
+    .filter-infos p {
         white-space: pre-line;
     }
-    .search{
+
+    .search {
         display: flex;
         margin-bottom: 10px;
     }
-    .button-search{
+
+    .button-search {
         width: 50px;
         border-top-left-radius: 15px;
         border-bottom-left-radius: 15px;
         margin-left: -15px;
     }
-    .button-search i{
+
+    .button-search i {
         display: flex;
         justify-content: center;
     }
-    .home{
+
+    .home {
         display: flex;
         flex-direction: column-reverse;
+        margin: 0;
+        padding: 0;
     }
-    .hebergement{
+
+    .hebergement {
         display: flex;
         flex-direction: column;
         width: 100%;
         margin: 0;
     }
-    .hebergementSubCard1{
+
+    .hebergementSubCard1 {
         display: flex;
         flex-direction: column;
     }
-    .hebergementSubCard2{
+
+    .hebergementSubCard2 {
         display: flex;
         flex-direction: column;
     }
-    .popular{
+
+    .popular {
         display: flex;
         flex-direction: column;
         width: 100%;
+        border-radius: 0;
     }
-    .activities-box-align{
+
+    .popular h1 {
+        display: flex;
+        justify-content: start;
+        margin-left: 10px;
+    }
+
+    .popular-header {
+        display: flex;
+        flex-direction: row;
+        margin-left: 0;
+        justify-content: space-between;
+    }
+
+    .cardPopular {
+        width: 325px;
+        margin-left: 10px;
+        height: 150px;
+    }
+
+    .activities-box-align {
         display: flex;
         flex-direction: column;
     }
-    .activities-box{
+
+    .activities-box {
         display: flex;
         flex-direction: column;
     }
