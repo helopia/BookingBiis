@@ -698,6 +698,9 @@ ul {
         width: 100%;
         height: 119px;
     }
+    .activities-image-title{
+        margin: 10px;
+    }
 
     .footer-box {
         display: flex;
