@@ -1,0 +1,230 @@
+@media screen and (max-width: 768px) {
+    header {
+        margin: 0;
+    }
+
+    header nav {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .logo {
+        margin: 20px;
+    }
+
+    .menu {
+        display: flex;
+        flex-direction: row;
+        width: 100%;
+        border-bottom: #F2F2F2 3px solid;
+        justify-content: space-around;
+    }
+
+    .siteContent {
+        display: flex;
+        width: 100%;
+        flex-direction: column;
+        margin: 0;
+    }
+
+    .siteContent h1 {
+        white-space: pre-line;
+        display: flex;
+        width: 100%;
+        justify-content: center;
+    }
+
+    .siteContent p {
+        display: flex;
+        justify-content: center;
+    }
+
+    .button-search p {
+        display: none;
+    }
+
+    .filter {
+        flex-direction: column;
+        max-width: 100%;
+        align-items: start;
+    }
+    .filter-box{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+
+    .economik-filter {
+        margin: 5px;
+    }
+
+    .filter-infos p {
+        white-space: pre-line;
+    }
+
+    .search {
+        display: flex;
+        margin-bottom: 10px;
+    }
+
+    .research {
+        flex: 1;
+    }
+
+    .form-research {
+        flex: 1;
+    }
+
+    .button-search {
+        width: 50px;
+        border-top-left-radius: 15px;
+        border-bottom-left-radius: 15px;
+        margin-left: -15px;
+    }
+
+    .button-search i {
+        display: flex;
+        justify-content: center;
+    }
+
+    .home {
+        display: flex;
+        flex-direction: column-reverse;
+        margin: 0;
+        padding: 0;
+    }
+
+
+    .popular {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        border-radius: 0;
+    }
+
+    .popular-align {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .popular h1 {
+        display: flex;
+        justify-content: start;
+        margin-left: 10px;
+    }
+
+    .popular-header {
+        display: flex;
+        flex-direction: row;
+        margin-left: 0;
+        justify-content: space-between;
+    }
+
+    .cardPopular {
+        width: 325px;
+        height: 150px;
+    }
+
+    .hebergement {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        margin: 0;
+        background-color: white;
+    }
+
+    .cardHebergement {
+        width: 325px;
+        height: 190px;
+    }
+
+    .hebergement-sub-card1 {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .hebergement-sub-card2 {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .hebergement h1 {
+        display: flex;
+        justify-content: start;
+    }
+
+    .afficher {
+        background-color: white;
+    }
+
+    .activities h1 {
+        justify-content: start;
+    }
+
+    .activities-box-align {
+        display: flex;
+        flex-direction: column;
+        height: auto;
+        align-items: center;
+    }
+
+    .activities-box {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .activities a {
+        width: 325px;
+        margin: 10px;
+    }
+
+    .activities-image-big img {
+        width: 100%;
+        height: 119px;
+    }
+
+    .activities-image-medium img {
+        width: 100%;
+        height: 119px;
+    }
+
+    .activities-image-medium2 img {
+        width: 100%;
+        height: 119px;
+    }
+
+    .activities-image-small img {
+        width: 100%;
+        height: 119px;
+    }
+
+    .activities-image-small2 img {
+        width: 100%;
+        height: 119px;
+    }
+
+    .activities-image-title {
+        margin: 10px;
+    }
+
+    .footer-box {
+        display: flex;
+        flex-direction: column;
+        padding-top: 40px;
+        padding-bottom: 40px;
+    }
+
+    .footer-box div {
+        margin: 10px;
+    }
+
+    .footer-box ul li {
+        margin: 5px;
+    }
+
+}
