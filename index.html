@@ -16,34 +16,34 @@
     <title>BookingBis</title>
 </head>
 <body>
-<!--Header-->
-<header>
-    <nav>
-        <img class="logo" src="assets/logo/Booki.png" alt="Booki Logo">
-        <div class="menu">
-            <div class="itemMenu"><a href="#hebergement">Hébergements</a>
-            </div>
-            <div class="itemMenu"><a href="#activities">Activités</a>
-            </div>
-        </div>
-    </nav>
-</header>
 <main class="siteContent">
-    <!--Navigation-->
-    <h1><strong> Trouvez votre hébergement
+<!--Header-->
+<header class="header">
+    <div class="header-logo">
+        <img class="logo" src="assets/logo/Booki@3x.png" alt="Booki Logo">
+    </div>
+    <nav class="menu">
+        <a href="#hebergement" class="itemMenu">Hébergements</a>
+        <a href="#activities" class="itemMenu">Activités</a>
+    </nav>
+
+</header>
+    <div>
+        <h1><strong> Trouvez votre hébergements
         pour des vacances de rêve</strong></h1>
-    <p>En plein centre ville ou en pleine nature</p>
+        <p>En plein centre ville ou en pleine nature</p>
+    </div>
     <div class="search">
         <div class="icon-search"><i class="fa-solid fa-location-dot fa-lg"></i></div>
             <form class="form-research">
                 <label for="research"></label>
                 <input type="text" id="research" class="research" name="research">
-                <button class="button-search" type="button"><i class="fas fa-search"></i><strong>Rechercher</strong></button>
+                <button class="button-search" type="button"><i class="fas fa-search"></i><p><strong>Rechercher</strong></p></button>
             </form>
     </div>
     <!--Filters-->
     <section class="filter">
-        <div><p><strong> Filtres</strong></p></div>
+        <h1><strong> Filtres</strong></h1>
         <div class="filter-box">
             <div class="economik-filter">
                 <div class="icon-box">
@@ -70,7 +70,6 @@
                 <a href="#">Animaux autorisés</a>
             </div>
         </div>
-
     </section>
     <section class="filter-infos">
         <div class="information-icon">
@@ -80,16 +79,14 @@
             dans cette ville</p>
     </section>
     <!--    Cards-->
-    <section class="home" id="home">
-        <div class="hebergement" id="hebergement">
+    <section class="home">
+        <div class="hebergement" id="#hebergement">
             <h1>Hébergements à Marseille</h1>
-            <div class="hebergement-sub-card1">
-
+            <div class="hebergement-box">
                 <div class="cardHebergement">
                     <a href="#">
                         <div class="cardHebergementImage">
-                            <img src="assets/hebergements/1_xlarge/marcus-loke-WQJvWU_HZFo-unsplash.jpg"
-                                 alt="Auberge de la Cannebière">
+                            <img src="assets/hebergements/1_xlarge/marcus-loke-WQJvWU_HZFo-unsplash.jpg" alt="Auberge de la Cannebière">
                         </div>
                         <div class="cardHebergement-body">
                             <div class="cardHebergementName"><strong>Auberge La Cannebière</strong></div>
@@ -103,9 +100,7 @@
                             </div>
                         </div>
                     </a>
-
                 </div>
-
                 <div class="cardHebergement">
                     <a href="#">
                         <div class="cardHebergementImage">
@@ -126,7 +121,6 @@
                             </div>
                         </div>
                     </a>
-
                 </div>
                 <div class="cardHebergement">
                     <a href="#">
@@ -150,8 +144,6 @@
                         </div>
                     </a>
                 </div>
-            </div>
-            <div class="hebergement-sub-card2">
                 <div class="cardHebergement">
                     <a href="#">
                         <div class="cardHebergementImage">
@@ -210,9 +202,10 @@
                     </a>
                 </div>
             </div>
+
             <button class="afficher"><strong>Afficher plus</strong></button>
         </div>
-        <div class="popular">
+        <div class="popular" >
             <div class="popular-header">
                 <h1>Les plus populaires</h1>
                 <i class="fas fa-chart-line fa-xl"></i>
@@ -278,10 +271,8 @@
             </div>
         </div>
     </section>
-    <section class="activities" id="activities">
-        <div>
-            <h1>Activités à Marseille</h1>
-        </div>
+    <section class="activities" id="#activities">
+        <h1>Activités à Marseille</h1>
         <div class="activities-box-align">
             <div class="activities-box">
                 <a href="" class="">
@@ -342,9 +333,6 @@
         </div>
     </section>
 
-
-</main>
-
 <footer>
     <section class="footer-box">
         <div>
@@ -371,5 +359,6 @@
         </div>
     </section>
 </footer>
+</main>
 </body>
 </html>

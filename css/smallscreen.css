@@ -1,31 +1,18 @@
 @media screen and (max-width: 768px) {
-    header {
-        margin: 0;
-    }
-
-    header nav {
-        display: flex;
+    .header {
         flex-direction: column;
-        align-items: center;
     }
-
-    .logo {
-        margin: 20px;
-    }
-
-    .menu {
-        display: flex;
-        flex-direction: row;
-        width: 100%;
+    .menu a{
         border-bottom: #F2F2F2 3px solid;
-        justify-content: space-around;
     }
-
+    .menu a:hover{
+        border-bottom: #0065FC 3px solid;
+        border-top: none;
+    }
     .siteContent {
         display: flex;
         width: 100%;
         flex-direction: column;
-        margin: 0;
     }
 
     .siteContent h1 {
@@ -49,6 +36,10 @@
         max-width: 100%;
         align-items: start;
     }
+    .filter h1{
+        justify-content: start;
+        margin-left: 20px;
+    }
     .filter-box{
         display: flex;
         flex-wrap: wrap;
@@ -58,23 +49,19 @@
     .economik-filter {
         margin: 5px;
     }
-
+    .filter-infos{
+        margin-left: 20px;
+    }
     .filter-infos p {
         white-space: pre-line;
     }
 
     .search {
         display: flex;
-        margin-bottom: 10px;
+        align-items: center;
+        justify-content: center;
     }
 
-    .research {
-        flex: 1;
-    }
-
-    .form-research {
-        flex: 1;
-    }
 
     .button-search {
         width: 50px;
@@ -89,10 +76,8 @@
     }
 
     .home {
-        display: flex;
         flex-direction: column-reverse;
-        margin: 0;
-        padding: 0;
+        align-items: center;
     }
 
 
@@ -101,6 +86,7 @@
         flex-direction: column;
         width: 100%;
         border-radius: 0;
+        max-width: none;
     }
 
     .popular-align {
@@ -112,19 +98,21 @@
     .popular h1 {
         display: flex;
         justify-content: start;
-        margin-left: 10px;
+        margin-left: 20px;
     }
 
     .popular-header {
         display: flex;
         flex-direction: row;
-        margin-left: 0;
         justify-content: space-between;
+        align-items: center;
+        margin-bottom: 0;
     }
 
     .cardPopular {
         width: 325px;
         height: 150px;
+        margin: 10px;
     }
 
     .hebergement {
@@ -155,14 +143,17 @@
     .hebergement h1 {
         display: flex;
         justify-content: start;
+        margin-left: 20px;
     }
 
     .afficher {
         background-color: white;
+        margin: 20px;
     }
 
     .activities h1 {
         justify-content: start;
+        margin-left: 20px;
     }
 
     .activities-box-align {
@@ -170,61 +161,59 @@
         flex-direction: column;
         height: auto;
         align-items: center;
+        gap: 40px;
     }
 
     .activities-box {
         display: flex;
         flex-direction: column;
         align-items: center;
+        gap: 30px;
     }
 
     .activities a {
         width: 325px;
-        margin: 10px;
     }
-
+    .activities-image-big{
+        height: auto;
+    }
     .activities-image-big img {
         width: 100%;
-        height: 119px;
+        height: 130px;
     }
 
     .activities-image-medium img {
         width: 100%;
-        height: 119px;
+        height: 130px;
     }
 
     .activities-image-medium2 img {
         width: 100%;
-        height: 119px;
+        height: 130px;
     }
 
     .activities-image-small img {
         width: 100%;
-        height: 119px;
+        height: 130px;
     }
 
     .activities-image-small2 img {
         width: 100%;
-        height: 119px;
+        height: 130px;
     }
 
     .activities-image-title {
-        margin: 10px;
-    }
 
+    }
+    .activities-image-box{
+        gap: 30px;
+    }
     .footer-box {
         display: flex;
         flex-direction: column;
-        padding-top: 40px;
-        padding-bottom: 40px;
+        gap: 10px;
+        margin-left: 20px;
     }
 
-    .footer-box div {
-        margin: 10px;
-    }
-
-    .footer-box ul li {
-        margin: 5px;
-    }
 
 }

@@ -1,24 +1,12 @@
 @media screen and (max-width: 992px) {
-    header {
-        margin: 0;
-    }
-
-    header nav {
-        display: flex;
+    .header {
         flex-direction: column;
-        align-items: center;
     }
 
-    .logo {
-        margin: 20px;
-    }
-
-    .menu {
+    .header nav {
         display: flex;
         flex-direction: row;
-        width: 100%;
-        border-bottom: #F2F2F2 3px solid;
-        justify-content: space-around;
+        align-items: center;
     }
 
     .siteContent {
@@ -29,7 +17,6 @@
     }
 
     .siteContent h1 {
-        white-space: pre-line;
         display: flex;
         width: 100%;
         justify-content: center;
@@ -61,20 +48,11 @@
     .filter-infos p {
         white-space: pre-line;
     }
-
-    .search {
+    .search{
         display: flex;
-        margin-bottom: 10px;
+        align-items: center;
+        justify-content: center;
     }
-
-    .research {
-        flex: 1;
-    }
-
-    .form-research {
-        flex: 1;
-    }
-
     .button-search {
         width: 50px;
         border-top-left-radius: 15px;
@@ -90,8 +68,6 @@
     .home {
         display: flex;
         flex-direction: column-reverse;
-        margin: 0;
-        padding: 0;
     }
 
 
@@ -100,25 +76,26 @@
         flex-direction: column;
         width: 100%;
         border-radius: 0;
+        max-width: none;
     }
 
     .popular-align {
         display: flex;
         flex-direction: row;
         flex-wrap: wrap;
-        align-items: center;
+        justify-content: center;
     }
 
     .popular h1 {
         display: flex;
         justify-content: start;
-        margin-left: 10px;
+
     }
 
     .popular-header {
         display: flex;
         flex-direction: row;
-        margin-left: 0;
+
         justify-content: space-between;
     }
 
@@ -131,8 +108,10 @@
         display: flex;
         flex-direction: column;
         width: 100%;
-        margin: 0;
         background-color: white;
+    }
+    .hebergement h1{
+        margin-left: 0;
     }
 
     .cardHebergement {
@@ -154,38 +133,31 @@
         align-items: center;
     }
 
-    .hebergement h1 {
-        display: flex;
-        justify-content: start;
-    }
+
 
     .afficher {
         background-color: white;
+        justify-content: center;
     }
 
-    .activities h1 {
-        justify-content: start;
-    }
 
     .activities-box-align {
         display: flex;
         flex-direction: column;
         height: auto;
         align-items: center;
+        gap: 20px;
     }
 
     .activities-box {
         display: flex;
         flex-direction: row;
+        max-width: none;
     }
 
     .activities a {
         width: 325px;
         margin: 10px;
-    }
-
-    .activities-image-big img {
-        width: 100%;
     }
 
     .activities-image-medium img {
@@ -211,5 +183,9 @@
     .activities-image-title {
         margin: 10px;
     }
+    .footer-box{
 
+        gap:50px;
+        justify-content: center;
+    }
 }
