@@ -2,7 +2,12 @@
     .header {
         flex-direction: column;
     }
+    .menu{
+        width: 100%;
+        text-align: center;
+    }
     .menu a{
+        width: 100%;
         border-bottom: #F2F2F2 3px solid;
     }
     .menu a:hover{
@@ -21,16 +26,10 @@
         width: 100%;
         justify-content: center;
     }
-
     .siteContent p {
         display: flex;
         justify-content: center;
     }
-
-    .button-search p {
-        display: none;
-    }
-
     .filter {
         flex-direction: column;
         max-width: 100%;
@@ -74,7 +73,9 @@
         display: flex;
         justify-content: center;
     }
-
+    .button-search strong{
+        display: none;
+    }
     .home {
         flex-direction: column-reverse;
         align-items: center;

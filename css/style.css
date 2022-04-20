@@ -58,7 +58,9 @@ body {
     flex-direction: row;
     align-items: center;
 }
-
+.research{
+    font-weight: bold;
+}
 .icon-search {
     display: flex;
     align-items: center;
